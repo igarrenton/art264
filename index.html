@@ -1,5 +1,626 @@
-<h1>
-Hello World!
-</h1>
-<a href="/exercise1/test-user.html">test</a>
-<p>this is a test</p>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Ivy Garrenton</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        
+         <!-- Bootstrap  -->
+         <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+        <script src="js/vendor/modernizr.js"></script>
+        <script>var iOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
+if(iOS){
+
+    function iosVhHeightBug() {
+        var height = $(window).height();
+        $("header").css('height', height);
+    }
+
+    iosVhHeightBug();
+    $(window).bind('resize', iosVhHeightBug);
+
+}  </script>
+        
+        
+    </head>
+  <body id="page-top" class="index">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+<!--  navigation      -->
+  <nav class="navbar navbar-default navbar-fixed-top ">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+           
+            </div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                    <li>
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Design</a>
+                    </li>
+                  
+                    <li>
+                        <a class="page-scroll" href="https://www.facebook.com/ivygarrenton?ref=hl">Fine Art</a>
+                    </li>  
+                    
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        
+        </div>
+      
+    </nav>       
+        
+        
+<!--  header-->
+    
+        
+    <header>
+        <div class="container">
+        </div>
+        <a class="page-scroll" href="#about">
+        <div class="logo container"> 
+            <img src="img/logo_black.png" alt="logo">
+        </div>
+    </a>
+    </header>
+
+   
+        
+<!--        design-->
+        
+        <section id="portfolio"></section> 
+         <section id="design" class="light-background hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Design</h2>
+                </div>
+            </div>
+            <div class="row-fluid">
+               
+                <div class="col-sm-3 col-sm-offset-2">
+                   <div class="circular pic img-circle" id='starificBkgd'>
+                       <h3>Starific</h3>
+                         <p>game landing page</p>
+                        <a href="starific.html"><img src="img/starific-bkgd" class=" img-circle fig" alt="">
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="circular pic img-circle" id='blastoffBkgd'>
+                        <h3>Blast Off</h3>
+                         <p>CSS / Javascript Animated Site</p>
+                        <a href="space.html"><img src="img/blastoff.png" class="img-circle fig" alt="">
+                        </a>
+                    </div>
+                </div>
+                    <div class="col-sm-3">
+                    <div class="circular pic img-circle" id='nakashimaBkgd'>
+                      
+                        <h3>Nakashima</h3>
+                         <p>Paralax Scrolling Site with SVG animation</p>
+						<a href="nakashima.html"><img src="img/carat.png" class="img-responsive img-circle fig" >
+                        </a>	
+						</div>
+                </div>
+              
+            </div>
+            
+            
+            <div class="row-fluid">
+                <div class="col-sm-3">
+                    <div class="circular pic img-circle" id='antikytheraBkgd'>
+                        <h3 >Antikythera</h3>
+                         <p>3d Documentary Style Animation</p>
+                        <a href="antikythera.html"><img src="img/antikythera.png" class="img-responsive img-circle fig" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="circular pic img-circle" id='climateBkgd'>
+                        <h3>Climate</h3>
+                         <p>A simple weather app</p>
+                        <a href="climate.html"><img src="img/climate.png" class="img-responsive img-circle fig" alt="">
+                       </a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="circular pic img-circle" id='humptyBkgd'>
+                        <h3>Humpty</h3>
+                         <p>Kinetic Type Flash </p>
+                        <a href="humpty.html"><img src="img/humpty.png" class="img-responsive img-circle fig" alt="">
+                        </a>
+                    </div>
+                </div>
+           
+            <div class="col-sm-3">
+                   <div class="circular pic img-circle" id='zooBkgd'>
+                       <h3>Austin Zoo</h3>
+                         <p>Responsive Site Redesign</p>
+                        <a href="zoo.html"><img src="img/zoo.png" class="img-responsive img-circle fig" alt="">
+                        </a>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="row-fluid">
+               
+                <div class="col-sm-3 col-sm-offset-1">
+                    <div class="circular pic img-circle" id='hatchBkgd'>
+                     
+                        <h3>hatch</h3>
+                      
+               <p>Typography, Print Design</p>
+                        <a href="hatch.html"><img src="img/hatch.png" class="img-responsive img-circle fig">
+                        </a>
+                    </div>
+                    
+                </div>
+           
+              <div class="col-sm-3">
+                    <div class="circular pic img-circle" id='videoBkgd'>
+                        <h3>Video Reel</h3>
+                         <p>Video and Motion Graphics</p>
+                        <a href="video.html"><img src="img/video.png" class="img-circle fig" alt="">
+                        </a>
+                    </div>
+                </div>
+         
+                
+                <div class="col-sm-3">
+                    <div class="circular pic img-circle" id='areelBkgd'>
+                        <h3>Animation</h3>
+                         <p>Lightwave 3D character design and visual effects</p>
+                        <a href="reel.html"><img src="img/animation.png" class="img-responsive img-circle fig" alt="">
+                        </a>
+                    </div>
+                </div>
+            
+        </div>
+        
+            </section>     
+<!--
+        
+      small screen  
+-->
+      
+        <section class='hidden-xs hidden-md hidden-lg' id="medium">
+            
+        <div class="container">
+            <div class="row-fluid">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading">Design</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+<!--
+                    <a href="catrina.html"><img src="img/lacatrina.png" class="img-responsive img-circle fig pic" alt="">  </a>
+
+                    <div class='caption'>
+                        <h3>la Catrina</h3>
+                        <p>Character Design and Animation</p>
+                    </div>
+-->
+
+                       
+                        <a href="starific.html"><img src="img/starific-bkgd" class=" img-circle fig pic" alt="">
+                        </a>
+                    <div class='caption'>
+                       <h3>Starific</h3>
+                         <p>game landing page</p>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-2"></div>
+
+                <div class="col-sm-4">
+                    <a href="space.html"><img src="img/blastoff.png" class="img-circle fig pic " alt=""></a>
+                    <div class='caption'>
+                        <h3>Blast Off</h3>
+                        <p>CSS / Javascript Animated Site</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+                    <a href="video.html"><img src="img/video.png" class="img-circle fig pic" alt=""></a>     
+                    <div class='caption'>
+                        <h3>Video Reel</h3>
+                        <p>Video and Motion Graphics</p>
+                    </div>      
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <a href="antikythera.html"><img src="img/antikythera.png" class="img-responsive img-circle fig pic" alt=""></a>
+                    <div class='caption'>
+                        <h3 >Antikythera</h3>
+                        <p>3d Animation</p>
+                    </div>
+                </div>
+            </div>
+            
+                
+        <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+                    <a href="climate.html"><img src="img/climate.png" class="img-responsive img-circle fig pic" alt=""> </a>      
+                    <div class='caption'>
+                      <h3>Climate</h3>
+                             <p>A simple weather app</p>
+                </div>
+
+
+
+                        </div>
+                     <div class="col-sm-2"></div>
+                    <div class="col-sm-4">
+                            <a href="humpty.html"><img src="img/humpty.png" class="img-responsive img-circle fig pic" alt="">
+                            </a>
+                             <div class='caption'>
+                                 <h3>Humpty</h3>
+                             <p>Kinetic Type Flash </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+     <div class="row">
+            <div class="col-sm-4 col-sm-offset-1">
+                    
+                        <a href="zoo.html"><img src="img/zoo.png" class="img-responsive img-circle fig pic" alt="">
+                        </a>
+                        
+                <div class='caption'>
+                <h3>Austin Zoo</h3>
+                         <p>Responsive Site Redesign</p>
+            </div>
+                        
+                      
+                       
+                    </div>
+                 <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    
+                      
+                        <a href="hatch.html"><img src="img/hatch.png" class="img-responsive img-circle fig pic">
+                        </a>
+                         <div class='caption'>
+                      
+                        <h3>hatch</h3>
+                      
+               <p>Typography, Print Design</p>
+                    </div>
+                </div>
+            
+            </div>
+            
+            
+            
+            
+    <div class="row">
+               
+            <div class="row-fluid">
+            <div class="col-sm-4 col-sm-offset-1">
+						<a href="nakashima.html"><img src="img/carat.png" class="img-responsive img-circle fig pic" >
+                        </a>	
+                        
+                <div class='caption'>
+                    <h3>Nakashima</h3>
+                         <p>Paralax Scrolling Site with SVG animation</p>
+            </div>
+                        
+                      
+                       
+                    </div>
+                 <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                        <a href="reel.html"><img src="img/animation.png" class="img-responsive img-circle fig pic" alt="">
+                        </a>
+                         <div class='caption'>
+                      
+                        <h3>Animation</h3>
+                         <p>Lightwave 3D character design and visual effects</p>
+                    </div>
+                </div>
+            
+            </div>
+            </div>
+            </div>
+        </section>
+  
+             
+<!--             XS DEVICES-->
+             
+             
+             
+   <section class='visible-xs' id="tiny">
+       <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading">Design</h2>
+                </div>
+            </div>
+          
+           
+           <div class="row">
+            <div class="col-xs-4 ">
+                    <a href="starific.html"><img src="img/starific-bkgd" class="img-responsive img-circle fig pic" alt="">  </a>
+                   </div>        
+                <div class='col-xs-6 responsive-text'>
+                <h3>Starific</h3>
+                         <p>game landing page</p>
+            </div>
+          </div>
+                
+           
+           
+            <div class="row">
+                 <div class="col-xs-4 ">
+                    <a href="space.html"><img src="img/blastoff.png" class="img-circle fig pic " alt="">
+                        </a>
+                </div>
+                         <div class='col-xs-6 responsive-text'>
+                      <h3>Blast Off</h3>
+                         <p>CSS / Javascript Animated Site</p>
+                    </div>
+                </div>
+   
+    
+       
+      
+           <div class="row">
+                 <div class="col-xs-4 ">
+                    <a href="video.html"><img src="img/video.png" class="img-circle fig pic " alt="">
+                        </a>
+                </div>
+                         <div class='col-xs-6 responsive-text'>
+                      <h3>Video</h3>
+                         <p>Video and Motion Graphics Reel </p>
+                    </div>
+                </div>
+            
+            
+                      
+                        
+                     <div class="row">
+                 <div class="col-xs-4 ">
+                     <a href="antikythera.html"><img src="img/antikythera.png" class="img-responsive img-circle fig pic" alt="">
+                        </a>
+                       </div>
+                       <div class='col-xs-6 responsive-text'>
+                            <h3 >Antikythera</h3>
+                            <p>3d Animation</p>
+                    </div>
+            </div>
+           
+           
+             <div class="row">
+                 <div class="col-xs-4 ">
+            <a href="climate.html"><img src="img/climate.png" class="img-responsive img-circle fig pic" alt=""> </a> 
+                     </div>
+                <div class='col-xs-6 responsive-text'>
+                  <h3>Climate</h3>
+                         <p>A simple weather app</p>
+            </div>
+                        
+                      
+                       
+                    </div>
+                 
+                 
+                 
+                   <div class="row">
+                 <div class="col-xs-4">
+                        <a href="humpty.html"><img src="img/humpty.png" class="img-responsive img-circle fig pic" alt="">
+                        </a>
+                     </div>
+                         <div class='col-xs-6 responsive-text'>
+                             <h3>Humpty</h3>
+                         <p>Kinetic Type Flash </p>
+                             </div>
+           </div>
+                       
+          
+           
+           
+           
+    <div class="row">
+                 <div class="col-xs-4">
+         <a href="zoo.html"><img src="img/zoo.png" class="img-responsive img-circle fig pic" alt="">
+                        </a>
+        </div>    
+                <div class='col-xs-6 responsive-text'>
+                <h3>Austin Zoo</h3>
+                         <p>Responsive Site Redesign</p>
+            </div>
+                        
+                      
+                       
+                    </div>
+        
+        
+        
+                 <div class="row">
+                 <div class="col-xs-4">
+                        <a href="hatch.html"><img src="img/hatch.png" class="img-responsive img-circle fig pic">
+                        </a>
+                     </div>
+                         <div class='col-xs-6 responsive-text'>
+                            <h3>hatch</h3>     
+                            <p>Typography, Print Design</p>
+                        </div>
+                </div>              
+         
+           
+           <div class="row">
+                 <div class="col-xs-4">
+           <a href="nakashima.html"><img src="img/carat.png" class="img-responsive img-circle fig pic" >
+                        </a>	
+               </div> 
+               <div class='col-xs-6 responsive-text'>
+                    <h3>Nakashima</h3>
+                         <p>Paralax Scrolling Site with SVG animation</p>
+            </div>
+                        
+                      
+                       
+                    </div>
+               
+               
+                 <div class="row">
+                 <div class="col-xs-4">
+                        <a href="reel.html"><img src="img/animation.png" class="img-responsive img-circle fig pic" alt="">
+                        </a>
+                     </div>
+                     
+                     
+                        <div class='col-xs-6 responsive-text'>
+                      
+                        <h3>Animation</h3>
+                         <p>Lightwave 3D character design and visual effects</p>
+                    </div>
+                </div>
+           
+       </div>
+             </section> 
+             
+             
+             
+
+             
+ <!-- About Section -->
+    <section id="about">
+        <div class="container background-yellow">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted responsive-text">“I love deadlines. I love the whooshing noise they make as they go by.” 
+― Douglas Adams</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                     
+                                    <h4>I'm Ivy</h4>
+                     
+                   
+                    <p class="text-muted">I am an artist, and a designer. Everthing here was lovingly coded, animated, edited, painted or otherwise made awesome by yours truly. Nothing motivates me more than a challenge, and I'm always looking for interesting new projects and people to work with.  Take a look at my site and get in touch. </p>
+                
+                </div>
+            </div>
+        </div>                
+    </section>
+
+        
+        
+<!--  FOOTER      -->
+             
+             
+   <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Ivy Garrenton — 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/ivygarrenton?ref=hl"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.behance.net/IvyGarrenton"><i class="fa fa-behance"></i></a>
+                        </li>
+                        <li><a href="mailto:ivygarrenton@gmail.com"><i class="fa fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+            <!-- Bootstrap  JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Plugin -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/hover.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+	<script src="js/scroll.js"></script>
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41085387-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>

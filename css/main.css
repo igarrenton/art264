@@ -1,0 +1,1047 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*body styles*/
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+
+a {
+  color: #c5542c;
+  } 
+  
+a:hover,
+a:focus {
+  color: #222;
+  text-decoration: none;
+}
+
+a:visited {
+	color: #a9c2b0;
+}
+
+
+section h2.section-heading {
+    margin-top: 10vw;
+    margin-bottom: 8vh;
+    font-size: 40px;
+}
+
+/*navigation*/
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(34,34,34,0.8);
+    
+}
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+ 
+  
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #666;
+}
+
+
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #222;
+}
+
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #c5542e;
+    text-align: right;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #222;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #a9c3b1;
+    background-color: rgba(34,34,34,0.8);
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #eceadd;
+    background-color: #222;
+}
+
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 20px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 50px;
+        background-color: #a9c3b1;
+        
+    }
+    
+    
+
+    .navbar-default.navbar-shrink {
+        padding: 3px 0;
+        background-color: rgba(34,34,34,0.8);
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+    
+    .navbar-default .navbar-nav>.active>a {
+
+    color: #222;
+    
+}
+}
+
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	
+}
+
+section#about {
+    background-color: #cfe6d5; 
+    margin-top:10vh;
+    padding-bottom:  10vh;}
+}
+
+section#design {
+    margin-bottom: 10vh}
+
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #222:
+}
+
+section h3.subsection-subheading {
+    margin-top: -5vh;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #222:
+}
+
+/*HEADER*/
+
+header {
+    text-align: center;
+    background-attachment: scroll;
+    background-image: url(../img/me.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+ 
+/** 
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  header {
+    height: 1024px;
+  }
+}
+ 
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  header {
+    height: 768px;
+  }
+}
+ 
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  header {
+    height: 500px;
+  }
+}
+.logo {
+    position: absolute;    
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*FOOTER*/
+
+footer {
+    bottom: 0;
+    padding: 25px 0;
+    text-align: center;
+   
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+
+.footerClimate {
+     clear: both;
+    height: 100px;
+    margin-top: -100px;
+    padding-top: 0;
+    position: relative;
+    width: 100%;
+   
+}
+
+.footerClimate span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+.footerClimate ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #f3f0d2;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #222;
+}
+
+
+
+/*images*/
+
+.pic{
+	-webkit-filter:   saturate(50%) opacity(80% ) sepia(15%) grayscale(15%);
+ 
+}
+
+.pic img{
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+.pic:hover img{
+-webkit-filter:  opacity(00% )brightness(120%);
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+
+
+.circular img {
+    margin: 0 auto;
+    border: 6px solid  #a9c3b1;
+    box-shadow: inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+img {
+display: inline-block;
+height: auto;
+max-width: 100%;
+}
+
+
+
+.fig {
+    position: relative;
+    z-index: 100;
+}
+
+#hatchBkgd {
+    background-image: url("../img/hatchBkgd.png");
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+
+#nakashimaBkgd {
+    background-image: url("../img/caratBkgd.png");
+    opacity: 1;
+     position: relative;
+    z-index: 1;
+}
+
+#areelBkgd {
+    background-image: url("../img/animationBkgd.png");
+    opacity: 1;
+     position: relative;
+    z-index: 1;
+}
+
+
+#antikytheraBkgd {
+    background-image: url("../img/antikytheraBkgd.png");
+    opacity: 1;
+     position: relative;
+}
+
+#climateBkgd {
+    background-image: url("../img/climateBkgd.png");
+    opacity: 1;
+     position: relative;
+}
+
+#humptyBkgd {
+    background-image: url("../img/humptyBkgd.png");
+    opacity: 1;
+    position: relative;
+}
+
+#zooBkgd {
+    background-image: url("../img/zooBkgd.png");
+    opacity: 1;
+     position: relative;
+}
+
+#lacatrinaBkgd {
+    background-image: url("../img/lacatrinaBkgd.png");
+    opacity: 1;
+     position: relative;
+}
+
+#starificBkgd {
+    background-image: url("../img/starificBkgd.jpg");
+    opacity: 1;
+     position: relative;
+}
+
+#blastoffBkgd {
+    background-image: url("../img/blastoffBkgd.png");
+    opacity: 1;
+     position: relative;
+}
+
+#videoBkgd {
+    background-image: url("../img/videoBkgd.png");
+    opacity: 1;
+     position: relative;
+}
+
+
+#design .circular h3{
+    position: absolute;
+    z-index: 2;
+    -webkit-filter:   saturate(50%) opacity(80% ) sepia(15%) grayscale(15%);
+    margin: 0;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    color: #fff;
+    letter-spacing: .1em;
+    font-weight: 100;
+}
+
+
+
+
+#design .circular p{
+    position: absolute;
+    z-index: 2;
+    -webkit-filter:   saturate(50%) opacity(80% ) sepia(15%) grayscale(15%);
+    margin: 0;
+    margin-top: 10.25vh;
+    margin-left: 2vw;
+    color: #fff;
+    letter-spacing: .1em;
+    font-weight: 100;
+    display: block;
+    border-top: 1px solid white;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+}
+
+.caption {
+    margin-left: 2vw;
+    margin-bottom: 8vw;
+}
+
+.caption h3 {
+    margin-bottom: .1em;
+}
+
+#tiny .row {
+    margin-bottom: 8vw;
+}
+
+#tiny img {
+    margin-left: 4vh;
+    margin-top: 1vw;
+}
+
+#tiny h3 {
+    margin-left: 4vh;
+}
+
+#tiny p {
+    margin-left: 4vh;
+}
+
+
+}
+.cap:hover {
+-webkit-filter:  opacity(00% )brightness(120%);
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+
+
+
+/*VIDEO*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*SUBPAGES*/
+
+.info-cap {
+    margin-top: 3vh;
+    padding: 3vh 4vw;
+    background-color: #cfe6d5; 
+}
+
+
+.info-cap1 {
+    margin-top: -1vh;
+    margin-bottom: 4vh;
+    padding: 3vh 4vw;
+    background-color: #cfe6d5; 
+}
+
+
+.screenshot {
+	
+    margin-top: 2vh;
+	margin-bottom: 30px;
+    
+}
+    
+    
+.info-cap a {
+    margin-left: 5vw;
+}
+
+#climate-animate {
+	position: absolute;
+margin-top: 190px;
+right:3;
+   margin-left: 335px;
+/*    overflow: hidden;*/
+    z-index: 10;
+
+    
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+       .caption {
+           padding-left: 3vw;
+           margin-bottom: vh;
+           color: #222;
+        }
+        
+        section#design {
+        margin-bottom: 10vh;
+        }
+
+	}
+
+
+  /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .logo{
+            width: 50%;
+            height: auto;
+        }
+
+    }    
+        
+
+/* Large Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+        .static {
+            margin-left: 8vw;
+        }
+        
+    }
+  
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+#tabletPort {
+    
+}
+
+
+
+
+
+.site {
+    margin-bottom: 5vh;
+}
+
+
+
+.climate-wrapper {
+    position: relative;
+    width: 800px;
+}
+
+#climate
+{
+    position: absolute;
+}
+.modal-body {
+    text-align: center;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.project-modal .modal-content {
+    padding: 100px x;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.project-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.project-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.project-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.project-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.project-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.project-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.project-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.project-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.project-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.class-blog {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
+section#exercises {
+    background-color: #fbf9f3; }
+	
+section#about {
+    background-color: #cfe6d5; }
+ 
+  
+
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #c5542c;
+  border-color: #c5542c;
+}
+
+btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #a9c2b0;
+  border-color: #a9c2b0;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+ background-color: #a9c2b0;
+  border-color: #a9c2b0;
+}
+
+.modals {
+    max-width: 800px;
+    margin-top: 5vh;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.modals img {margin: 10px;}
+
+#climate-container {
+    max-width: 800px;
+    
+    
+    
+}
+
+
+.caption1 {
+    text-align: center;
+    text-size:2em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+#climate-map {
+    
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.modal-content h2 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    
+  
+}
+
+
+
+.img-square {
+    
+    margin: 0;
+    padding: 0;
+}
+
+#liveSite {
+    
+    margin-top: 50px;
+    margin-bottom: 75px;
+    font-size: 3em;
+    
+    
+}
